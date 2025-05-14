@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Bastidas-M/testsFoxOrdering.git/static/css/main.523412e9.css",
-    "main.js": "/Bastidas-M/testsFoxOrdering.git/static/js/main.cc1cecd6.js",
-    "static/js/453.9e771c00.chunk.js": "/Bastidas-M/testsFoxOrdering.git/static/js/453.9e771c00.chunk.js",
-    "index.html": "/Bastidas-M/testsFoxOrdering.git/index.html",
-    "main.523412e9.css.map": "/Bastidas-M/testsFoxOrdering.git/static/css/main.523412e9.css.map",
-    "main.cc1cecd6.js.map": "/Bastidas-M/testsFoxOrdering.git/static/js/main.cc1cecd6.js.map",
-    "453.9e771c00.chunk.js.map": "/Bastidas-M/testsFoxOrdering.git/static/js/453.9e771c00.chunk.js.map"
+    "main.css": "/testsFoxOrdering/static/css/main.523412e9.css",
+    "main.js": "/testsFoxOrdering/static/js/main.87cb78a8.js",
+    "static/js/453.9e771c00.chunk.js": "/testsFoxOrdering/static/js/453.9e771c00.chunk.js",
+    "index.html": "/testsFoxOrdering/index.html",
+    "main.523412e9.css.map": "/testsFoxOrdering/static/css/main.523412e9.css.map",
+    "main.87cb78a8.js.map": "/testsFoxOrdering/static/js/main.87cb78a8.js.map",
+    "453.9e771c00.chunk.js.map": "/testsFoxOrdering/static/js/453.9e771c00.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.523412e9.css",
-    "static/js/main.cc1cecd6.js"
+    "static/js/main.87cb78a8.js"
   ]
 }

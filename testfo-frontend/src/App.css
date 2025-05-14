@@ -1,0 +1,77 @@
+/* Estilo personalizado para complementar el diseño futurista */
+
+/* Efectos de animación para elementos UI */
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px rgba(0, 204, 255, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(0, 204, 255, 0.4);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(0, 204, 255, 0.2);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+/* Estilos personalizados */
+.futuristic-glow {
+  animation: glow 2s infinite ease-in-out;
+}
+
+.futuristic-pulse {
+  animation: pulse 3s infinite ease-in-out;
+}
+
+/* Mejoras en el efecto de hover para los botones */
+.btn-futuristic {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-futuristic:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.1) 50%, rgba(255,255,255,0) 100%);
+  transform: translateX(-100%);
+  transition: transform 0.6s;
+}
+
+.btn-futuristic:hover:before {
+  transform: translateX(100%);
+}
+
+/* Efecto de cristal para algunos elementos */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Ajustes para tipografía */
+body {
+  font-feature-settings: "kern", "liga", "clig", "calt";
+  text-rendering: optimizeLegibility;
+}
+
+/* Mejoras sutiles en la apariencia en modo oscuro */
+@media (prefers-color-scheme: dark) {
+  body {
+    color-scheme: dark;
+  }
+}
